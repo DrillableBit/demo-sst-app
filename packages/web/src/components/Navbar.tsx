@@ -16,16 +16,16 @@ const navLinks = [
     path: "/about",
   },
   {
-    title: "Projects",
-    path: "/projects",
+    title: "Profile",
+    path: "/profile",
   },
   {
     title: "Contact",
     path: "/contact",
   },
   {
-    title: "Signup",
-    path: "/signup",
+    title: "Sign-up",
+    path: "/sign-up",
   },
   {
     title: "Login",

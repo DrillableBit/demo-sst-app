@@ -47,6 +47,30 @@
         "chunks": [],
         "async": false
       }
+    },
+    "(app-client)/./src/app/login/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/login/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/profile/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/profile/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/profile/layout.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/profile/layout.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -135,7 +159,15 @@
       "id": "(app-client)/./src/components/Navbar.tsx",
       "name": "*",
       "chunks": [
-        "app/about/page:static/chunks/app/about/page.js"
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\login\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
+      "id": "(app-client)/../../node_modules/next/font/google/target.css?{\"path\":\"src\\\\app\\\\login\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "name": "*",
+      "chunks": [
+        "app/login/layout:static/chunks/app/login/layout.js"
       ],
       "async": false
     },
@@ -155,48 +187,42 @@
       ],
       "async": false
     },
-    "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\projects\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
-      "id": "(app-client)/../../node_modules/next/font/google/target.css?{\"path\":\"src\\\\app\\\\projects\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+    "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\packages\\web\\src\\app\\login\\page.tsx": {
+      "id": "(app-client)/./src/app/login/page.tsx",
       "name": "*",
       "chunks": [
-        "app/projects/layout:static/chunks/app/projects/layout.js"
+        "app/login/page:static/chunks/app/login/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\contact\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
-      "id": "(app-client)/../../node_modules/next/font/google/target.css?{\"path\":\"src\\\\app\\\\contact\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+    "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\packages\\web\\src\\app\\profile\\page.tsx": {
+      "id": "(app-client)/./src/app/profile/page.tsx",
       "name": "*",
       "chunks": [
-        "app/contact/layout:static/chunks/app/contact/layout.js"
+        "app/profile/page:static/chunks/app/profile/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\about\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
-      "id": "(app-client)/../../node_modules/next/font/google/target.css?{\"path\":\"src\\\\app\\\\about\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+    "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\packages\\web\\src\\app\\profile\\layout.tsx": {
+      "id": "(app-client)/./src/app/profile/layout.tsx",
       "name": "*",
       "chunks": [
-        "app/about/layout:static/chunks/app/about/layout.js"
+        "app/profile/layout:static/chunks/app/profile/layout.js"
       ],
       "async": false
     }
   },
   "entryCSSFiles": {
-    "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\packages\\web\\src\\app\\page": [],
+    "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\packages\\web\\src\\app\\not-found": [],
+    "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\packages\\web\\src\\app\\login\\layout": [
+      "static/css/app/login/layout.css"
+    ],
     "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\packages\\web\\src\\app\\layout": [
       "static/css/app/layout.css"
     ],
-    "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\packages\\web\\src\\app\\projects\\layout": [
-      "static/css/app/projects/layout.css"
-    ],
-    "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\packages\\web\\src\\app\\projects\\page": [],
-    "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\packages\\web\\src\\app\\not-found": [],
-    "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\packages\\web\\src\\app\\contact\\layout": [
-      "static/css/app/contact/layout.css"
-    ],
-    "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\packages\\web\\src\\app\\contact\\page": [],
-    "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\packages\\web\\src\\app\\about\\page": [],
-    "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\packages\\web\\src\\app\\about\\layout": [
-      "static/css/app/about/layout.css"
-    ]
+    "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\packages\\web\\src\\app\\login\\page": [],
+    "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\packages\\web\\src\\app\\profile\\page": [],
+    "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\packages\\web\\src\\app\\profile\\layout": [],
+    "C:\\Users\\aapli\\Desktop\\Programming\\sst-dynamo-api-auth-2\\notes\\packages\\web\\src\\app\\page": []
   }
 }

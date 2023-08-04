@@ -13,11 +13,10 @@ export default {
   },
   stacks(app) {
     app
-    .stack(WebStack)
     .stack(StorageStack)
     .stack(ApiStack)
     .stack(AuthStack)
-   
+    .stack(WebStack)
     
   }
 } satisfies SSTConfig;
