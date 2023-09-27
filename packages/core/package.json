@@ -7,11 +7,13 @@
     "typecheck": "tsc -noEmit"
   },
   "devDependencies": {
-    "vitest": "^0.33.0",
     "@types/node": "^20.4.1",
-    "sst": "^2.20.1"
+    "sst": "^2.20.1",
+    "vitest": "^0.33.0"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.395.0",
+    "@aws-sdk/s3-request-presigner": "^3.395.0",
     "zod": "^3.21.4"
   }
 }

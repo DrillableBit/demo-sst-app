@@ -1,0 +1,1 @@
+{"kind":"FETCH","data":{"headers":{"apigw-requestid":"Lk7twhxTliAEMDQ=","connection":"keep-alive","content-length":"15","content-type":"text/plain; charset=utf-8","date":"Wed, 20 Sep 2023 22:33:08 GMT"},"body":"SGVsbG8gc3RyYW5nZXIh","status":200,"tags":["/api/test/public/route"],"url":"https://of1qdqu8ok.execute-api.eu-central-1.amazonaws.com/public"},"revalidate":31536000}
