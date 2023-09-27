@@ -1,10 +1,12 @@
 
 export { default } from "next-auth/middleware"
 
-
+//default uses the _http-secure-cookie to check if a user is logged in. 
+// Use this to enforce unauthenticated pages on signin/signup
 
 
 export const config = { matcher: ["/about", "/profile/:path*", "/settings", "/uploads", "/note" ] }
+
 
 // import { NextResponse } from 'next/server'
 // import type { NextRequest } from 'next/server'

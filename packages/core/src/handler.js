@@ -17,7 +17,8 @@ export default function handler(lambda) {
         statusCode,
         body: JSON.stringify(body),
         headers: {
-          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Origin": "http://localhost:3000", 
+          //  Change to domain later
           "Access-Control-Allow-Credentials": true,
         },
       };

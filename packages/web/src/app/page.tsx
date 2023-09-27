@@ -1,16 +1,28 @@
-import React from 'react';
-import Layout from './layout';
-import Navbar from '@/components/Navbar';
+"use client";
+import React, { useEffect } from "react";
 
+import Navbar from "@/_components/_nav/Navbar";
+import NewNote from "@/_components/NewNote";
+import TestApi from "@/_components/TestApi";
+import { useSession } from "next-auth/react";
 function Page() {
+
+  const { data: session, status } = useSession();
+ 
+  useEffect(() => {
+    console.log("session", session, "status", status);
+  }, [session,status]);
   return (
-    <Layout>
-      <Navbar/>
+    <>
       <div className="text-center">
+        <Navbar />
+     
         <h1 className="text-4xl font-bold">Welcome to My Website</h1>
-        <p className="text-lg mt-4">Enjoy the Tailwind CSS styles!</p>
+        
+        <p className="text-lg mt-4">Here are some standard API calls</p>
+        <TestApi />
       </div>
-    </Layout>
+    </>
   );
 }
 
